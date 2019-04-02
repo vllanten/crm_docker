@@ -2,12 +2,12 @@
 
 ## Install
 
-    add vhost url to hosts file:
+Add vhost url to hosts file:
 
-    sudo echo "127.0.0.1 dev.back.crm.local api.crm.local" >> /etc/hosts
+` sudo echo "127.0.0.1 dev.back.crm.local api.crm.local" >> /etc/hosts `
 
-    adjust path to projects into docker-compose file
+Adjust path to projects into docker-compose file
 
 ## Run
 
-    docker-compose up
+`docker-compose up`
